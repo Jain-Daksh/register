@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "myapp",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+      "timestamp" : false
+    }
+    
+  },
+  "test": {
+    "username": "postgres",
+    "password": "daksh",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "daksh",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
